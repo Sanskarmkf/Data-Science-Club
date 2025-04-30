@@ -1,0 +1,62 @@
+1. Predict the output the code snipsset given below:
+	class Sample1{
+        public static void main(String[] args){
+                int x = 10;
+                if(!(x==10))
+                        System.out.println("Hello");
+                else
+                        System.out.println("Hi");
+        }
+}
+
+2. Create a class named 'Student' with data members: String variable 'name' and integer variable 'roll_no'. Assign the value of roll_no as '2' and that of name as "John" by creating an object of the class Student and display the same.
+
+3. Write a program that would print the information (name, year of joining, salary, address) of an employee by creating a class named 'Employee'. 
+
+4. Predict the output of the following program: 
+	class Company {
+		String name;
+	}
+	class Main {
+		public static void main(String[] args) {
+			Company c1 = new Company();
+			c1.name = "Acharya";
+			System.out.println(c1.name);
+		}
+	}
+
+5. Check if a number is positive
+   Input: an integer
+   Task: Print "Positive number" if it's greater than 0.
+
+6. Check if a character is a vowel
+   Input: a character
+   Task: Print "Vowel" if the character is 'a', 'e', 'i', 'o', or 'u'.
+
+7. Check if a number is even or odd
+   Input: an integer
+   Task: Print "Even" if it's divisible by 2, otherwise print "Odd".
+
+8. Check if a number is positive and even
+   Input: an integer
+   Task: First check if it's positive, then check if it's even.
+
+9. Check grades based on marks
+   Input: integer marks
+   Task:
+
+   If marks > 90, print "Excellent"
+
+   If 70 < marks ≤ 90, print "Good"
+
+   Else, print "Needs Improvement"
+
+10. Determine the type of triangle
+   Input: three sides of a triangle
+   Task:
+
+   If all sides are equal → "Equilateral"
+
+   If two sides are equal → "Isosceles"
+
+   If no sides are equal → "Scalene" 
