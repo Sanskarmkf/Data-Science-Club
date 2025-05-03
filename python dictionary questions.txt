@@ -1,0 +1,13 @@
+							Assignment Questions
+
+1.	Given a list of keys: ["name", "age", "city"] and a list of values: ["John", 30, "New York"], use the zip() function to create a dictionary. Print the result.
+
+2.	Create a dictionary where the keys are the indices and the values are the elements of the list: ["Python", "C++", "JAVA", "R"]. Use the enumerate() function to do this. Print the dictionary.
+
+3.	 Given dictionary: person = {"name": "Alice", "age": 25, "city": "Paris"} . Write a program to remove the "age" key and print the updated dictionary.
+
+4.	You are given two dictionaries: dict1 = {"name": "John", "age": 30} and dict2 = {"city": "New York", "course": "Physics"} . Write a program to merge both dictionaries into one dictionary and print the result.
+
+5.	Write a program that takes a user's age and income as input. If the user is 18 or older and has an income greater than $30,000, print "Eligible for the loan". Otherwise, print "Not eligible for the loan".
+
+6.	Write a program that takes an integer as input and prints whether the number is "Negative", "Zero", or "Positive".

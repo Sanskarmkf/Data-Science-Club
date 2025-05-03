@@ -1,0 +1,39 @@
+1. Accept two integers and a character (+, -, *, /) from the user, and use a switch to perform the operation.
+
+2. Write a program that takes a grade (A, B, C, D, F) and uses switch to print a message (e.g., A = "Excellent", B = "Good", etc.).
+
+3. Predict the output of the following program: 
+	String day = "MONDAY";
+	switch (day.toLowerCase()) {
+	    case "monday":
+	        System.out.println("Start of the week");
+	        break;
+	    case "friday":
+	        System.out.println("Weekend is near!");	
+	        break;
+	    default:
+	        System.out.println("Midweek");
+	}
+
+4. Write a program to print even numbers from 1 to 100 using a while loop.
+
+5. Write a program to reverse a number (e.g., input: 1234, output: 4321) using a while loop.
+
+6. Keep asking the user to guess a number until they get it right. Use a do-while loop.
+
+7. Create a menu (1. Add, 2. Subtract, 3. Exit) and perform the selected operation using a do-while loop. (For exiting from the code in java, we use System.exit())
+
+8. Write a program that takes a number and calculates its factorial using a for loop.
+
+9. Take a number and print its multiplication table up to 10 using a for loop.
+
+10. Predict the output of the following code: 
+	for (int i = 1; i <= 5; i++) {
+	    if (i == 3) break;
+	    System.out.print(i + " ");
+	}
+
+11. Given an integer array, use a for-each loop to find the sum of all elements.
+
+12. Given an array of integers, use a for-each loop to find and print the largest number.
+
