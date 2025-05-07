@@ -1,0 +1,81 @@
+1. Write a program to print the names of students by creating a Student class. If no 
+name is passed while creating an object of Student class, then the name should be 
+"Unknown", otherwise the name should be equal to the String value passed while 
+creating object of Student class.
+
+2. Define class Square with a variable to initialise the side length with the help of a 
+constructor. Define two methods which will return area and parimeter of square . 
+Define class cube with appropriate variable name and constructor to initialise the 
+value . Define two methods which will return volume and total surface area of cube .  
+Define class circle having a variable radius with the appropriate required constructor 
+to initialise its value and will have two methods to print the area and circumference 
+to the console . 
+Define main class , make an object of each class and envoke all the possible methods 
+and display it . 
+
+3. Write a java program for a Staff class having three variables StaffName , StaffId , 
+Phone and salary . Define the required constructors to initialise the value to its 
+variables as shown in output. Define method display to print the value in the same 
+format as shown here :  
+Create 4 objects with passing the appropriate parameters to the constructor. 
+Test cases : 
+Staffid  	Staffname  		Salary  		Phone        
+
+101  		Ram 			1000.0 			987654321 
+102  		null 			0.0  			765489322 
+0  		Shyam  			5000.0 			657894321 
+104   		Sita 			0.0  			623489076 
+ 
+Note : Don’t pass zero or null in parameters while creating the object, take it as default . 
+
+
+4. Predict the output of the following code:
+class Dog {
+ 	String name;
+ 	int age;
+ 	// Default constructor
+ 	Dog() {
+ 		name = "Unknown";
+ 		age = 0;
+ 	}
+ 	void display() {
+ 		System.out.println("Dog's Name: " + name + " Age: " + age);
+ 	}
+ }
+ public class Main {
+ 	public static void main(String[] args) {
+ 		Dog myDog = new Dog(); // Calls the default constructor
+ 		myDog.display();
+ 	}
+ }
+
+5. Predict the output of the following code:
+class Dog {
+ 	String name;
+ 	int age;
+ 	// Parameterized constructor
+ 	Dog(String dogName, int dogAge) {
+ 		name = dogName;
+ 		age = dogAge;
+ 	}
+ 	void display() {
+ 		System.out.println("Dog's Name: " + name + " Age: " + age);
+ 	}
+ }
+ public class Main {
+ 	public static void main(String[] args) {
+ 		Dog myDog = new Dog("Buddy", 5); // Calls parameterized constructor
+ 		myDog.display();
+ 	}
+ }
+ 
+             
+
+
+
+
+
+
+
+
+
