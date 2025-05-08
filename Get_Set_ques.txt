@@ -1,0 +1,4 @@
+Write Java code as instructed.  
+• Define class Employee that has the following members: – Private instance variables String empName, double salary – Mutator methods to update the instance variables – Accessor methods to access the instance variables  – Method public double bonus(float percent) that returns the bonus computed as 
+(percent/100.0)*salary  
+• Define class EmpTest that has the main method and the following functionalities:  – Create an Employee object – Invoke mutator methods to set the values of name and salary  – Invoke accessor methods to get the details of an Employee  – Invoke method bonus(float percent) to get the bonus of an Employee  
