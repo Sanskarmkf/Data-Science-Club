@@ -1,0 +1,5 @@
+Define an Employee class which will take EmpName , EmpId,salary,Phone as instance 
+variable . Define the required constructor to initialise the values . Define the method 
+Display to print the values .  
+Define main class and store the values of 5 employees details using array and display 
+them .  
